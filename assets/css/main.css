@@ -2309,6 +2309,11 @@ input, select, textarea {
 		}
 
 /* Image */
+	.portrait {
+		max-width: 50%;
+		max-height: 50%;
+		height: auto;
+	}
 
 	.image {
 		border-radius: 4px;
