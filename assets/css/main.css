@@ -73,6 +73,17 @@ input, select, textarea {
 }
 
 /*START - STUFF I HAVE ADDED*/
+
+.flexcontainer {
+	display: flex;
+	align-items: center;
+  }
+  @media (max-width: 320px) {
+	.flexcontainer {
+	  display: block;
+	}
+  }
+
 ol {
 	list-style-type: none;
 	counter-reset: li;
