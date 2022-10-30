@@ -241,6 +241,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+    .box img {
+		width: 100%;
+		height: 100%;
+	}
+		   
+    
 /* Container */
 
 	.container {
